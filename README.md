@@ -1,4 +1,4 @@
-# local-mcp-server
+# Expense-Tracter-mcp-server
 
 A professional, local Model Context Protocol (MCP) server designed for effortless expense tracking. This server enables AI assistants to interact directly with a local SQLite database to manage financial records, categorize spending, and provide insightful summaries.
 
@@ -22,8 +22,8 @@ A professional, local Model Context Protocol (MCP) server designed for effortles
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/AakashSharma011/local-mcp-server.git
-   cd local-mcp-server
+   git clone https://github.com/AakashSharma011/Expense-Tracter-mcp-server.git
+   cd Expense-Tracter-mcp-server
    ```
 
 2. **Install dependencies**:
@@ -63,7 +63,7 @@ To use this server with Claude Desktop, add the following configuration to your 
       "command": "uv",
       "args": [
         "--directory",
-        "C:/absolute/path/to/local-mcp-server",
+        "C:/absolute/path/to/Expense-Tracter-mcp-server",
         "run",
         "main.py"
       ]
@@ -85,7 +85,7 @@ To use this server with Claude Desktop, add the following configuration to your 
 ## 📂 Folder Structure
 
 ```text
-local-mcp-server/
+Expense-Tracter-mcp-server/
 ├── categories.json    # JSON file containing expense categories
 ├── expenses.db       # SQLite database (auto-generated)
 ├── main.py           # Core MCP server implementation
